@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <style>
+        svg{
+            background-color: black;
+        }
+        svg rect{
+            fill: blue;
+        }
+    </style>
+</head>
+<body>
+    <div id="menu">
+        <div>
+        <menu type="context" id="meu-menu">
+            <menuitem> Atualizar</menuitem> <!--Isso so funciona no navegador mouzila(firefox)-->
+        </menu>
+        </div>
+
+
+
+
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+        <form action="cadastro.js" method="POST">
+            <object width="800" height="1000" data="conceito_intro.pdf"> </object><br><br>
+
+            <nav>
+                <ul>
+                    <li><a href="#">Página inicial</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+
+            </nav>
+
+            Nome:
+            <input type="text" name="Nome" required autofocus disabled placeholder="Nome Completo"><br>
+            <br>
+
+            <svg width="300" height="150">
+                <rect width="280" height="140">
+            </svg><br><br>
+
+            Hora:
+            <input type="time" name="tempo" min="08:00" max="20:00"><br><br>
+
+            Data de Nascimento:
+            <input type="date" name="data" min="1999-01-01" max="2020-12-31"><br><br>
+
+            Mes e Ano:
+            <input type="month" name="mes-ano"><br><br>
+
+            Semana de inicio:
+            <input type="week" name="semana"><br><br>
+
+            Escolha Um Curso:<br>
+            <input name="Cursos" list="lista-Cursos" placeholder="Cursos">
+             <datalist id="lista-Cursos">
+                 <option value="Ciencia Da Computação">
+                 <option value="Engenharia Da Computação">
+                 <option value="Sistema Da Informação">
+                 <option value="Administração">
+             </datalist>
+             <br><br>
+
+            Dia e hora de recebimento de prova:
+            <input type="datetime-local" name="data-e-hora"><br><br>
+            
+            Senha: 
+            <input type="password" name="Senha" required minlength="4" maxlength="8" placeholder="Senha"><br><br>
+
+            E-mail: 
+            <input type="email" name="E-mail" autocomplete="nope" placeholder="seu@gmail.com" ><br><br>
+
+            <select name="Veiculo">
+                <optgroup label="Carro">
+                    <option value="Honda">Honda
+                    <option value="Fiat" selected>Fiat
+                    <option value="Uno">Uno
+                    <option value="Onyx">Onyx
+                </optgroup>
+
+                Aima. Avelloz. BMW. Bravax
+                <optgroup>
+                    <option value="Aima">Aima
+                    <option value="Avelloz">Avelloz
+                    <option value="BMW">BMW
+                    <option value="Bravax">Bravax
+                </optgroup>
+            </select><br><br>
+
+            Avaliação: 
+            <input type="range" name="Avaliação" min="1" max="10"><br><br>
+
+            Cor: 
+            <input type="color" name="cor"><br><br>
+
+            Nota: 
+            <input type="number" name="Valor" min="1" max="10"><br>
+            <br>
+
+            Pesquisa: 
+            <input type="search" name="Pesquisa" placeholder="Pesquisa">
+
+            <button type="button" name="btn">Pesquisar</button><br><br>
+
+            Arquivo: 
+            <input type="file" name="Arquivo"><br><br>
+
+            Escolha entre:<br>
+            <input type="radio" name="escolha" value="1"> para HTML<br>
+            <input type="radio" name="escolha" value="2"> para CSS<br>
+            <input type="radio" name="escolha" value="3"> para JS<br>
+            <input type="radio" name="escolha" value="4"> para HTML & CSS<br>
+            <input type="radio" name="escolha" value="5"> para HTML & CSS & JS<br><br>
+
+            Quantas eu quero:<br>
+            <input type="checkbox" name="Quero" value="verde">verde<br>
+            <input type="checkbox" name="Quero" value="Azul">Azul<br>
+            <input type="checkbox" name="Quero" value="Amarelo">Amarelo<br>
+            <input type="checkbox" name="Quero" value="Vermelho">Vermelho<br>
+            <input type="checkbox" name="Quero" value="Preto">Preto<br><br>
+
+            Site: 
+            <input type="url" name="site" placeholder="https://www.google.com.br/"><br><br>
+
+            <textarea name="Mensagem" rows="10" cols="30" spellcheck="true" placeholder="Comentario"></textarea><br><br>
+
+            <input type="submit" nome="Enviar"><br>
+        </form>
+        </fieldset>
+
+    </div>
+    
+</body>
+</html>
