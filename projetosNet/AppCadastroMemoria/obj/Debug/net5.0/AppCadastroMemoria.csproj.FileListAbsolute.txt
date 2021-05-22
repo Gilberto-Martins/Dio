@@ -1,0 +1,16 @@
+C:\Users\gilbe\projetosNet\AppCadastroMemoria\bin\Debug\net5.0\AppCadastroMemoria.exe
+C:\Users\gilbe\projetosNet\AppCadastroMemoria\bin\Debug\net5.0\AppCadastroMemoria.deps.json
+C:\Users\gilbe\projetosNet\AppCadastroMemoria\bin\Debug\net5.0\AppCadastroMemoria.runtimeconfig.json
+C:\Users\gilbe\projetosNet\AppCadastroMemoria\bin\Debug\net5.0\AppCadastroMemoria.runtimeconfig.dev.json
+C:\Users\gilbe\projetosNet\AppCadastroMemoria\bin\Debug\net5.0\AppCadastroMemoria.dll
+C:\Users\gilbe\projetosNet\AppCadastroMemoria\bin\Debug\net5.0\ref\AppCadastroMemoria.dll
+C:\Users\gilbe\projetosNet\AppCadastroMemoria\bin\Debug\net5.0\AppCadastroMemoria.pdb
+C:\Users\gilbe\projetosNet\AppCadastroMemoria\obj\Debug\net5.0\AppCadastroMemoria.csprojAssemblyReference.cache
+C:\Users\gilbe\projetosNet\AppCadastroMemoria\obj\Debug\net5.0\AppCadastroMemoria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gilbe\projetosNet\AppCadastroMemoria\obj\Debug\net5.0\AppCadastroMemoria.AssemblyInfoInputs.cache
+C:\Users\gilbe\projetosNet\AppCadastroMemoria\obj\Debug\net5.0\AppCadastroMemoria.AssemblyInfo.cs
+C:\Users\gilbe\projetosNet\AppCadastroMemoria\obj\Debug\net5.0\AppCadastroMemoria.csproj.CoreCompileInputs.cache
+C:\Users\gilbe\projetosNet\AppCadastroMemoria\obj\Debug\net5.0\AppCadastroMemoria.dll
+C:\Users\gilbe\projetosNet\AppCadastroMemoria\obj\Debug\net5.0\ref\AppCadastroMemoria.dll
+C:\Users\gilbe\projetosNet\AppCadastroMemoria\obj\Debug\net5.0\AppCadastroMemoria.pdb
+C:\Users\gilbe\projetosNet\AppCadastroMemoria\obj\Debug\net5.0\AppCadastroMemoria.genruntimeconfig.cache
